@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AHMED\\Source\\Repos\\.Net-Core\\C#Learn\\C#Learn.csproj": {}
+    "C:\\Users\\AHMED\\source\\repos\\.Net-Core\\C#Learn\\C#Learn.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AHMED\\Source\\Repos\\.Net-Core\\C#Learn\\C#Learn.csproj": {
+    "C:\\Users\\AHMED\\source\\repos\\.Net-Core\\C#Learn\\C#Learn.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AHMED\\Source\\Repos\\.Net-Core\\C#Learn\\C#Learn.csproj",
+        "projectUniqueName": "C:\\Users\\AHMED\\source\\repos\\.Net-Core\\C#Learn\\C#Learn.csproj",
         "projectName": "C#Learn",
-        "projectPath": "C:\\Users\\AHMED\\Source\\Repos\\.Net-Core\\C#Learn\\C#Learn.csproj",
+        "projectPath": "C:\\Users\\AHMED\\source\\repos\\.Net-Core\\C#Learn\\C#Learn.csproj",
         "packagesPath": "C:\\Users\\AHMED\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\AHMED\\Source\\Repos\\.Net-Core\\C#Learn\\obj\\",
         "projectStyle": "PackageReference",
