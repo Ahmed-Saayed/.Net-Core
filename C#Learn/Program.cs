@@ -85,10 +85,10 @@ namespace C_Learn
             op.DO();
             */
 
-            /*
+            
             Interfacetest op = new Interfacetest();
             op.DO();
-            */
+            
 
             /*
             HashSettest op = new HashSettest();

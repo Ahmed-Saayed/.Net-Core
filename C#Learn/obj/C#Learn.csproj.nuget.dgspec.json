@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AHMED\\Desktop\\C#\\C#Learn\\C#Learn.csproj": {}
+    "C:\\Users\\AHMED\\Source\\Repos\\.Net-Core\\C#Learn\\C#Learn.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AHMED\\Desktop\\C#\\C#Learn\\C#Learn.csproj": {
+    "C:\\Users\\AHMED\\Source\\Repos\\.Net-Core\\C#Learn\\C#Learn.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AHMED\\Desktop\\C#\\C#Learn\\C#Learn.csproj",
+        "projectUniqueName": "C:\\Users\\AHMED\\Source\\Repos\\.Net-Core\\C#Learn\\C#Learn.csproj",
         "projectName": "C#Learn",
-        "projectPath": "C:\\Users\\AHMED\\Desktop\\C#\\C#Learn\\C#Learn.csproj",
+        "projectPath": "C:\\Users\\AHMED\\Source\\Repos\\.Net-Core\\C#Learn\\C#Learn.csproj",
         "packagesPath": "C:\\Users\\AHMED\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AHMED\\Desktop\\C#\\C#Learn\\obj\\",
+        "outputPath": "C:\\Users\\AHMED\\Source\\Repos\\.Net-Core\\C#Learn\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AHMED\\AppData\\Roaming\\NuGet\\NuGet.Config",

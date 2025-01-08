@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\AHMED\\Desktop\\C#\\C#Learn\\",
+  "WorkspaceRootPath": "C:\\Users\\AHMED\\source\\repos\\.Net-Core\\C#Learn\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AD68D3A2-C5BF-484F-A3D7-90528DC78D7A}|C#Learn.csproj|c:\\users\\ahmed\\desktop\\c#\\c#learn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AD68D3A2-C5BF-484F-A3D7-90528DC78D7A}|C#Learn.csproj|c:\\users\\ahmed\\source\\repos\\.net-core\\c#learn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD68D3A2-C5BF-484F-A3D7-90528DC78D7A}|C#Learn.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\AHMED\\Desktop\\C#\\C#Learn\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\AHMED\\source\\repos\\.Net-Core\\C#Learn\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\AHMED\\Desktop\\C#\\C#Learn\\Program.cs",
+              "ToolTip": "C:\\Users\\AHMED\\source\\repos\\.Net-Core\\C#Learn\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAQwHQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAQwFcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-08T16:38:02.159Z",
               "EditorCaption": ""
