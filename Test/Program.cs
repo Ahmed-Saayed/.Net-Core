@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices.Marshalling;
  
-namespace Test                      // LeetCode Daily Challenges
+namespace Test                       // LeetCode Daily Challenges
 {
     public class Solution
     {
