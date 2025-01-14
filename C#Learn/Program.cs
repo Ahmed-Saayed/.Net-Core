@@ -1,10 +1,15 @@
 ﻿using C_Learn.Abstract;
+using C_Learn.Adapter;
 using C_Learn.Array_List;
+using C_Learn.Builder;
+using C_Learn.Clone;
+using C_Learn.Decorator;
 using C_Learn.Delegate;
 using C_Learn.Directories_and_Files;
 using C_Learn.Enumerables;
 using C_Learn.Events_with_delegates;
 using C_Learn.Extension_Methods;
+using C_Learn.Factory;
 using C_Learn.Fundamental___Basics;
 using C_Learn.Generic;
 using C_Learn.Hash_Set;
@@ -12,9 +17,12 @@ using C_Learn.Interface;
 using C_Learn.LINQ;
 using C_Learn.List;
 using C_Learn.Map;
+using C_Learn.Observer;
 using C_Learn.Operator;
 using C_Learn.Priority_Queue;
+using C_Learn.Proxy;
 using C_Learn.Recursion;
+using C_Learn.Singleton;
 using C_Learn.Stack_Queue;
 using C_Learn.String_Bulider;
 using C_Learn.Threading_and_Async;
@@ -43,6 +51,8 @@ namespace C_Learn
             you cannot declare a class as virtual
             */
 
+            // a static class cannot extend other classes or implement interfaces
+            //you cannot declare a variable with an access modifier (like public) inside a method. Access modifiers are only applicable to class-level fields
             // static class any something declare within it must be static   and can access with call its name . name of the properite
             // static memebers can not reach any non-static members
             // in Extension Methods when we make this keyword it must define in static class (and in static class any method must be static)
@@ -63,9 +73,12 @@ namespace C_Learn
             // Asynchronous programming allows a program to start a task and move on to another task before the first one finishes
             // Synchronous programming means program waits for each task to complete before moving on to the next one
             // await make thread Synchronous
+            // A static constructor is called automatically when any static member of the class is accessed or when the class is first referenced
             // () => ()     () its a parametar method / => / () its a returned of the method what ever void or any type
             //the join clause is used in LINQ to combine elements from two sequences based on a common key.(( The result new collection of anonymous objects))
             // Try To Understand Asyn await Task  Threads  !!!!!!!!!!!!!!!!!!!!!!!!!!
+
+            // op is "class name"  return boolean if op instanse of class name
 
             //var op2 = new test { x = 5, y = 6 };
             //var op = new test() { x = 5, y = 6 };
@@ -190,6 +203,88 @@ namespace C_Learn
             */
 
             // Typehere
+
+            /*
+            OP op=new OP();
+            remote rm= new remote();
+
+            add ad = new add(op);
+            sub sb = new sub(op);
+
+            rm.add(0, ad);
+            rm.add(1, sb);
+
+            rm.DOO(0);
+            Console.WriteLine(op.x);
+            rm.DOO(0);
+            Console.WriteLine(op.x);
+            rm.DOO(1);
+            Console.WriteLine(op.x);*/
+
+
+
+
+
+
+            /*
+            // x initialy 0 
+            par op=new par();
+            op.x++;
+            par op2 = op;
+
+            op.x++;
+            Console.WriteLine(op2.x);
+
+
+            int x = 5;
+            x++;
+            int y = x;
+
+            x++;
+            Console.WriteLine(y);*/
+
+
+            /*
+            singletontest op = new singletontest();
+            op.DO();
+            */
+
+            /*
+            Factorytest op = new Factorytest();
+            op.DO();
+            */
+
+            /*
+            Buildrtest op = new Buildrtest();
+            op.DO();
+            */
+
+            /*
+            Clonetest op = new Clonetest();
+            op.DO();
+            */
+
+
+            /*
+            Adaptertestcs op = new Adaptertestcs();
+            op.DO();
+            */
+
+            /*
+            Proxytest op = new Proxytest();
+            op.DO();
+
+            */
+
+            /*
+            Decoratortest op= new Decoratortest();
+            op.DO();
+            */
+
+            /*
+            Observertest op = new Observertest();
+            op.DO();
+            */
         }
     }
 }
