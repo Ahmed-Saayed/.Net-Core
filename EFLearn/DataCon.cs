@@ -137,7 +137,7 @@ namespace EFLearn
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=localhost;Database=WORK;Trusted_Connection=True; TrustServerCertificate=True");
+            // Add ur Connection String :)
         }
     }
 }
