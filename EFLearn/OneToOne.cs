@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,9 +14,10 @@ namespace EFLearn
     public class Depatment      // principal table
     {
         public int DepatmentID { get; set; }        // principal key
+
         public string DepatmentName { get; set; }
 
-        public Person Personn { get; set; }         // navigation property
+        public virtual Person Personn { get; set; }         // navigation property
     }
     public class Person
     {
@@ -25,6 +27,6 @@ namespace EFLearn
         public int DepID { get; set; }      // foreign key
 
         //[ForeignKey("DepatmentNumber")]
-        public Depatment Depatmentt { get; set; } // reference navigation property
+        public virtual Depatment Depatmentt { get; set; } // reference navigation property
     }
 }
