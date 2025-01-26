@@ -8,8 +8,8 @@ namespace C_Learn.Map
 {
     public class Maptest
     {
-         public void DO() { 
-            Dictionary<string, int> mp = new Dictionary<string, int>();
+         public void DO() {
+            SortedDictionary<string, int> mp = new SortedDictionary<string, int>();
 
             mp.Add("Alice", 30);
             mp.Add("Bob", 25);

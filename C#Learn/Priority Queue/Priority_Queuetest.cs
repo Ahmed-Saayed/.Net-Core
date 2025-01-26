@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace C_Learn.Priority_Queue
 {
-    public class Priority_Queuetest
+    public class Priority_Queuetest         // Its not as c++  use SortedSet instead of it!!!!!!!!!!!!!
     {
         public void DO()
         {

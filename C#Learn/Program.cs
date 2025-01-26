@@ -104,7 +104,7 @@ namespace C_Learn
             */
 
             /*
-            HashSettest op = new HashSettest();
+            SortedSettest op = new SortedSettest();
             op.DO();
             */
 
@@ -197,6 +197,7 @@ namespace C_Learn
             Linqtest op = new Linqtest();
             op.DO4();
             */
+
             /*
             Operatortest op = new Operatortest();
             op.DO();

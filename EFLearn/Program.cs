@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Numerics;
+using System.Runtime.Intrinsics;
 using System.Threading.Tasks.Dataflow;
 using static EFLearn.DataCon;
 
@@ -262,8 +263,14 @@ namespace EFLearn
 
             con.SaveChanges();
            
+           HashSet<int>s=new HashSet<int>();
+            s.Add(1);
+            s.Add(12);
+            s.Remove(s.Min());
+
+            while (s.Count > 0)
+                s.Remove(s.Max());
 
         }
     }
-
 }

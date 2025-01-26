@@ -7,8 +7,24 @@
       "RelativeMoniker": "D:0:0:{AD68D3A2-C5BF-484F-A3D7-90528DC78D7A}|C#Learn.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD68D3A2-C5BF-484F-A3D7-90528DC78D7A}|C#Learn.csproj|c:\\users\\ahmed\\desktop\\c#\\c#learn\\design patterns\\singleton\\singletontest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD68D3A2-C5BF-484F-A3D7-90528DC78D7A}|C#Learn.csproj|solutionrelative:design patterns\\singleton\\singletontest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD68D3A2-C5BF-484F-A3D7-90528DC78D7A}|C#Learn.csproj|c:\\users\\ahmed\\desktop\\c#\\c#learn\\sorted settest\\sortedsettest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD68D3A2-C5BF-484F-A3D7-90528DC78D7A}|C#Learn.csproj|solutionrelative:sorted settest\\sortedsettest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD68D3A2-C5BF-484F-A3D7-90528DC78D7A}|C#Learn.csproj|c:\\users\\ahmed\\desktop\\c#\\c#learn\\priority queue\\priority_queuetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD68D3A2-C5BF-484F-A3D7-90528DC78D7A}|C#Learn.csproj|solutionrelative:priority queue\\priority_queuetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD68D3A2-C5BF-484F-A3D7-90528DC78D7A}|C#Learn.csproj|c:\\users\\ahmed\\desktop\\c#\\c#learn\\fundamental \u0026 basics\\basics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD68D3A2-C5BF-484F-A3D7-90528DC78D7A}|C#Learn.csproj|solutionrelative:fundamental \u0026 basics\\basics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD68D3A2-C5BF-484F-A3D7-90528DC78D7A}|C#Learn.csproj|c:\\users\\ahmed\\desktop\\c#\\c#learn\\stack\u0026queue\\stacktest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD68D3A2-C5BF-484F-A3D7-90528DC78D7A}|C#Learn.csproj|solutionrelative:stack\u0026queue\\stacktest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD68D3A2-C5BF-484F-A3D7-90528DC78D7A}|C#Learn.csproj|c:\\users\\ahmed\\desktop\\c#\\c#learn\\linq\\linqtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD68D3A2-C5BF-484F-A3D7-90528DC78D7A}|C#Learn.csproj|solutionrelative:linq\\linqtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,20 +34,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "singletontest.cs",
-              "DocumentMoniker": "C:\\Users\\AHMED\\Desktop\\C#\\C#Learn\\Design Patterns\\Singleton\\singletontest.cs",
-              "RelativeDocumentMoniker": "Design Patterns\\Singleton\\singletontest.cs",
-              "ToolTip": "C:\\Users\\AHMED\\Desktop\\C#\\C#Learn\\Design Patterns\\Singleton\\singletontest.cs*",
-              "RelativeToolTip": "Design Patterns\\Singleton\\singletontest.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAGAAAAAAAAAA==",
+              "Title": "SortedSettest.cs",
+              "DocumentMoniker": "C:\\Users\\AHMED\\Desktop\\C#\\C#Learn\\Sorted Settest\\SortedSettest.cs",
+              "RelativeDocumentMoniker": "Sorted Settest\\SortedSettest.cs",
+              "ToolTip": "C:\\Users\\AHMED\\Desktop\\C#\\C#Learn\\Sorted Settest\\SortedSettest.cs",
+              "RelativeToolTip": "Sorted Settest\\SortedSettest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T12:29:18.834Z",
+              "WhenOpened": "2025-01-25T02:34:33.281Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Priority_Queuetest.cs",
+              "DocumentMoniker": "C:\\Users\\AHMED\\Desktop\\C#\\C#Learn\\Priority Queue\\Priority_Queuetest.cs",
+              "RelativeDocumentMoniker": "Priority Queue\\Priority_Queuetest.cs",
+              "ToolTip": "C:\\Users\\AHMED\\Desktop\\C#\\C#Learn\\Priority Queue\\Priority_Queuetest.cs",
+              "RelativeToolTip": "Priority Queue\\Priority_Queuetest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T02:04:20.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Basics.cs",
+              "DocumentMoniker": "C:\\Users\\AHMED\\Desktop\\C#\\C#Learn\\Fundamental \u0026 Basics\\Basics.cs",
+              "RelativeDocumentMoniker": "Fundamental \u0026 Basics\\Basics.cs",
+              "ToolTip": "C:\\Users\\AHMED\\Desktop\\C#\\C#Learn\\Fundamental \u0026 Basics\\Basics.cs",
+              "RelativeToolTip": "Fundamental \u0026 Basics\\Basics.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T02:44:14.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Stacktest.cs",
+              "DocumentMoniker": "C:\\Users\\AHMED\\Desktop\\C#\\C#Learn\\Stack\u0026Queue\\Stacktest.cs",
+              "RelativeDocumentMoniker": "Stack\u0026Queue\\Stacktest.cs",
+              "ToolTip": "C:\\Users\\AHMED\\Desktop\\C#\\C#Learn\\Stack\u0026Queue\\Stacktest.cs",
+              "RelativeToolTip": "Stack\u0026Queue\\Stacktest.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T00:49:07.112Z"
             },
             {
               "$type": "Document",
@@ -41,10 +94,22 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\AHMED\\Desktop\\C#\\C#Learn\\Program.cs*",
               "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAPIAAAAAAAAAAAAQwPYAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAuwMcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T16:38:02.159Z",
+              "WhenOpened": "2025-01-23T22:12:28.748Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Linqtest.cs",
+              "DocumentMoniker": "C:\\Users\\AHMED\\Desktop\\C#\\C#Learn\\LINQ\\Linqtest.cs",
+              "RelativeDocumentMoniker": "LINQ\\Linqtest.cs",
+              "ToolTip": "C:\\Users\\AHMED\\Desktop\\C#\\C#Learn\\LINQ\\Linqtest.cs",
+              "RelativeToolTip": "LINQ\\Linqtest.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAASwK4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T01:14:27.27Z"
             }
           ]
         }

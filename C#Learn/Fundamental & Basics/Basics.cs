@@ -9,7 +9,7 @@ namespace C_Learn.Fundamental___Basics
 {
     public class Basics
     {
-      
+
         public void DO()
         {
 
@@ -53,8 +53,8 @@ namespace C_Learn.Fundamental___Basics
             */
             //readonly can nit assign when i created and assign it once in constructor But const assign when created only
 
-             
-       
+
+
 
 
             /*
@@ -94,6 +94,19 @@ namespace C_Learn.Fundamental___Basics
             long[] x = Console.ReadLine().Split(' ').Select(long.Parse).ToArray();  // cin one line
             */
 
+            /*
+            var x = new List<int>();
+            x= Console.ReadLine().Split(' ').Select(int.Parse).ToList();
+            int k = x.Aggregate((x, y) => x ^ y);
+            Console.WriteLine(k);
+            */
+
+            /*
+            var x = new List<int>{ 1,2,3,4,5,6};
+
+            var y = x.FirstOrDefault(x => x % 2 == 0 && x>5);
+            Console.WriteLine(y);
+            */
         }
 }
 }
