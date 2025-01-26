@@ -181,7 +181,7 @@ namespace EFLearn
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseLazyLoadingProxies().UseSqlServer(@"Server=localhost;Database=WORK;Trusted_Connection=True; TrustServerCertificate=True");
+            optionsBuilder.UseLazyLoadingProxies().UseSqlServer();
         }
     }
 }
