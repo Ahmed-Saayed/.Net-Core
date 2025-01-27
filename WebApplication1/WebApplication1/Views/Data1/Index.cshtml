@@ -1,0 +1,32 @@
+﻿@model List<Department>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<style>
+    #a1{
+        
+        background-color: blue;
+        width :100%;  
+    }
+</style>
+
+<h1>Index</h1>
+
+<table id="a1" ,class="table table-bordered table-hover" background-color: rgba(150, 212, 212, 0.4)>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Maneger Name</th>
+    </tr>
+
+    @foreach (var i in Model)
+    {
+    <tr>
+            <th>@i.Id</th>
+            <th>@i.Name</th>
+            <th>@i.Maneger_name</th>
+    </tr>
+    }
+
+</table>

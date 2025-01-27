@@ -1,0 +1,15 @@
+﻿@using WebApplication1.ViewModel
+
+
+@{
+    ViewData["Title"] = "Index3";
+}
+
+<h1>Index3 TestViewModel</h1>
+<br>
+
+@foreach(var i in Model.Items)
+{
+    <h3 style="color:@Model.color">@i</h3>
+}
+

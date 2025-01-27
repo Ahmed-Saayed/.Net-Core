@@ -18,20 +18,21 @@ namespace WebApplication1.Models
         [DisplayName("Salary (Between 1000 , 40000)")]
         public long  Salary { get; set; }
 
-    
+        // [DataType(DataType.EmailAddress)]//passowrd ,etc..
         [RegularExpression("Alex|Assiut|Matroh",ErrorMessage = "Not Avalibale only avalibale Alex|Assiut|Matroh")]
         public string City { get; set; }
         
         [DisplayName("Course")]
-   
+        //[Compare("Pattern")]  the inpute must be same as pattern
      
         public string course { get; set; }
 
+        //[DataType(DataType.Password)]
         public string Phone { get; set; }
         
 
         [ForeignKey("depkey")]
         public int Dep_id { get; set; }
-        public virtual Department? depkey { get; set; }     
+        public virtual Department? depkey { get; set; }     //(?) to allaow null values
     }
 }

@@ -1,0 +1,11 @@
+﻿<table>
+    @foreach (Product i in Model){
+        <tr>
+            <td>@i.Id </td>
+            <td>@i.Name</td>
+            <td><img src="/Myimages/@i.Images" style="width:300px", height="300:px"></td>
+
+        </tr>
+    }
+
+</table>

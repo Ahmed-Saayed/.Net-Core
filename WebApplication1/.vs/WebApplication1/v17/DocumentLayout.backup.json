@@ -1,10 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\AHMED\\Desktop\\C#\\repo\\WebApplication1\\",
+  "WorkspaceRootPath": "C:\\Users\\AHMED\\Desktop\\C#\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{848AB906-4F80-48C6-9590-F44EEE0D3041}|WebApplication1\\WebApplication1.csproj|c:\\users\\ahmed\\desktop\\c#\\repo\\webapplication1\\webapplication1\\controllers\\data1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{848AB906-4F80-48C6-9590-F44EEE0D3041}|WebApplication1\\WebApplication1.csproj|c:\\users\\ahmed\\desktop\\c#\\webapplication1\\webapplication1\\controllers\\data1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{848AB906-4F80-48C6-9590-F44EEE0D3041}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\data1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{848AB906-4F80-48C6-9590-F44EEE0D3041}|WebApplication1\\WebApplication1.csproj|c:\\users\\ahmed\\desktop\\c#\\webapplication1\\webapplication1\\views\\data1\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{848AB906-4F80-48C6-9590-F44EEE0D3041}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\data1\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{848AB906-4F80-48C6-9590-F44EEE0D3041}|WebApplication1\\WebApplication1.csproj|c:\\users\\ahmed\\desktop\\c#\\webapplication1\\webapplication1\\views\\data1\\joinus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{848AB906-4F80-48C6-9590-F44EEE0D3041}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\data1\\joinus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{848AB906-4F80-48C6-9590-F44EEE0D3041}|WebApplication1\\WebApplication1.csproj|c:\\users\\ahmed\\desktop\\c#\\webapplication1\\webapplication1\\views\\data1\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{848AB906-4F80-48C6-9590-F44EEE0D3041}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\data1\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +26,53 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SignUp.cshtml",
+              "DocumentMoniker": "C:\\Users\\AHMED\\Desktop\\C#\\WebApplication1\\WebApplication1\\Views\\Data1\\SignUp.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Data1\\SignUp.cshtml",
+              "ToolTip": "C:\\Users\\AHMED\\Desktop\\C#\\WebApplication1\\WebApplication1\\Views\\Data1\\SignUp.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Data1\\SignUp.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-27T03:29:55.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JoinUs.cshtml",
+              "DocumentMoniker": "C:\\Users\\AHMED\\Desktop\\C#\\WebApplication1\\WebApplication1\\Views\\Data1\\JoinUs.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Data1\\JoinUs.cshtml",
+              "ToolTip": "C:\\Users\\AHMED\\Desktop\\C#\\WebApplication1\\WebApplication1\\Views\\Data1\\JoinUs.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Data1\\JoinUs.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAEwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-27T02:12:46.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\AHMED\\Desktop\\C#\\WebApplication1\\WebApplication1\\Views\\Data1\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Data1\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\AHMED\\Desktop\\C#\\WebApplication1\\WebApplication1\\Views\\Data1\\Edit.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Data1\\Edit.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-27T02:06:42.291Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Data1Controller.cs",
-              "DocumentMoniker": "C:\\Users\\AHMED\\Desktop\\C#\\repo\\WebApplication1\\WebApplication1\\Controllers\\Data1Controller.cs",
+              "DocumentMoniker": "C:\\Users\\AHMED\\Desktop\\C#\\WebApplication1\\WebApplication1\\Controllers\\Data1Controller.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\Data1Controller.cs",
-              "ToolTip": "C:\\Users\\AHMED\\Desktop\\C#\\repo\\WebApplication1\\WebApplication1\\Controllers\\Data1Controller.cs*",
-              "RelativeToolTip": "WebApplication1\\Controllers\\Data1Controller.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\AHMED\\Desktop\\C#\\WebApplication1\\WebApplication1\\Controllers\\Data1Controller.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\Data1Controller.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAADwv58AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-07T18:19:09.748Z",
               "EditorCaption": ""

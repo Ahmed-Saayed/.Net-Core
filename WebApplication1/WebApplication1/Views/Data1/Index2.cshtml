@@ -1,0 +1,29 @@
+﻿
+<h1>Index2</h1>
+
+<h1>Test ViewData<h1/>
+
+    <h2 style="background-color : @ViewData["colour"]">My color</h2>
+
+<select>
+
+        @foreach(var i in (List<string>)ViewData["listt"])
+        {
+            <option>@i</option>
+        } 
+</select>
+
+<select>
+
+        @foreach (var i in ViewBag.listt)
+        {
+            <option>@i</option>
+        }
+
+</select>
+
+<hr>
+
+    @((int)ViewData["Tempreature"] + 3)
+    <br />
+    @(ViewBag.Tempreature + 6)

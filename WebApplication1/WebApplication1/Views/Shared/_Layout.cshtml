@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Form</title>
+    <title>@ViewData["Title"] - WebApplication1</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/WebApplication1.styles.css" asp-append-version="true" />
@@ -28,18 +28,20 @@
 
                         <!--Add option to header-->
                         <li class="nav-item">
-                          <h1>  <a class="nav-link text-dark" asp-controller="Data1" asp-action="JoinUs">>>>>Click Here To Show The Form!!<<<<</a> </h1>
+                            <a class="nav-link text-dark" asp-controller="Data1" asp-action="JoinUs">Click Here!!</a>
                         </li>
 
                     </ul>
                 </div>
             </div>
         </nav>
+        
+        <partial name="_MyPartial_View" />      <!--Patial view to make ultiple view and call in to layout-->
     </header>
     <div class="container">
         <main role="main" class="pb-3" style="border:10px solid blue">
-           
-
+            <h3 style="color:crimson">For Layout Go to View Then Shared Then _Latyout Video 10 min 54</h3>
+            
             @RenderBody()
         </main>
     </div>

@@ -7864,11 +7864,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AHMED\\Desktop\\C#\\repo\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "C:\\Users\\AHMED\\Desktop\\C#\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "C:\\Users\\AHMED\\Desktop\\C#\\repo\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "projectPath": "C:\\Users\\AHMED\\Desktop\\C#\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
       "packagesPath": "C:\\Users\\AHMED\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AHMED\\Desktop\\C#\\repo\\WebApplication1\\WebApplication1\\obj\\",
+      "outputPath": "C:\\Users\\AHMED\\Desktop\\C#\\WebApplication1\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\AHMED\\AppData\\Roaming\\NuGet\\NuGet.Config",
