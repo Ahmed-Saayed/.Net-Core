@@ -1,0 +1,72 @@
+﻿@model Students
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<style>
+    #a1 {
+        background-color: beige;
+        color: cornflowerblue;
+    }
+
+    #a2 {
+        background-color: beige;
+        color: crimson;
+    }
+</style>
+
+<form id="a2" method="post" action="/Data1/SaveData2/@Model.Id">
+    <!--  <div asp-validation-summary="All"></div>   This for show all unvalid inputes in Form-->
+
+    <div>
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class=" form-control" style=" color:orangered" />
+        <span asp-validation-for="Name"></span>
+    </div>
+    <br />
+
+    <div>
+        <label asp-for="Salary"></label>
+        <input asp-for="Salary" class=" form-control" />
+        <span asp-validation-for="Salary"></span>
+    </div>
+    <br />
+
+    <div>
+        <label asp-for="City"></label>
+        <input asp-for="City" class=" form-control" style=" color:fuchsia" />
+        <span asp-validation-for="City"></span>
+    </div>
+    <br />
+
+    <div>   <!--Label by this way go to class and read the Display Name-->
+        <label asp-for="course" style="color:blue"></label>      <!--Tag Helper-->    <!--The Best Way in Form-->
+        <input asp-for="course" class=" form-control" style=" color:blue" placeholder="Enter ur course" />
+        <span asp-validation-for="course"></span>
+    </div>
+    <br />
+
+    <div>
+        <label asp-for="Phone"></label>
+        <input asp-for="Phone" class=" form-control" style=" color:blue" placeholder="Enter ur Phone Number" />
+        <span asp-validation-for="Phone"></span>
+    </div>
+    <br />
+
+    <div>
+        <label asp-for="Dep_id"></label>
+        <select name="Dep_id">
+            @foreach(Department dep in ViewBag.deplst){
+               <option value="@dep.Id">@dep.Name</option>
+            }
+        </select>
+    </div>
+    <br />
+    
+    <input id="a1" type="submit" value="Save Changes" class="btn btn-success"/>
+</form>
+
+<partial name="_ValidationScriptsPartial" />
+

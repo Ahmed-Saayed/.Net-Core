@@ -1,0 +1,93 @@
+﻿@model List<Students>
+@{
+    ViewData["Title"] = "JoinUs";
+}
+
+
+<h1>Join Us!!</h1>
+</br>
+
+<h2>
+   <ol>
+ Courses :
+ <br /><br />
+
+        <font color="Blue">
+        <li>Web Site</li></font>
+    </br>
+        <font color="red">
+        <li>Flutter</li></font>
+    </br>
+        <font color="green">
+        <li>Net Work</li></font>
+    </br>
+        <font color="orange">
+        <li>Cyber Security</li></font>
+    </br>
+
+        <font color="yellow">
+        <li>Data Structure</li></font>
+        <br />
+        <font color="red">
+        <li>Algorithms</li></font>
+        <br />
+        <font color="cyan">
+        <li>Data Base</li></font>
+    </ol>
+    <hr />
+
+</h2>
+</br>
+
+<a asp-controller="Data1" asp-action="SignUp">Apply Here</a>
+<!--<a href="/Data1/SignUp">Apply Here</a>-->
+</br>
+
+
+</br>
+
+<style>
+
+    #a1 {
+      
+        background-color: cyan;
+        width :100%;
+        
+    }
+    #a2{
+        background-color:blueviolet;
+        color:aquamarine
+    }
+
+    #a3{
+        color:blue;
+        background-color :red;
+    }
+</style>
+
+<table id="a1" ,class="table table-bordered table-hover" background-color: rgba(150, 212, 212, 0.4) >
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Salary</th>
+        <th>City</th>
+        <th>Courses</th>
+        <th>Phone</th>
+        <th>Dep_ID</th>
+    </tr>
+
+    @foreach (var i in Model)
+    {
+        <tr id="a2">
+            <th>@i.Id</th>
+            <th>@i.Name</th>
+            <th>@i.Salary</th>
+            <th>@i.City</th>
+            <th>@i.course</th>
+            <th>@i.Phone</th>
+            <th>@i.Dep_id</th>
+             <td id="a3"><a href="/Data1/Edit/@i.Id">Edit Here</a></td>
+        </tr>
+    }
+
+</table>

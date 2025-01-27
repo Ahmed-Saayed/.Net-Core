@@ -1,0 +1,77 @@
+﻿@model Students
+@{
+    ViewData["Title"] = "SignUp";
+    SelectList lst = new SelectList(ViewBag.deplst, "Id", "Name");
+        <!--Video 10 min 15-->
+}
+
+<style>   
+    #a1{
+        background-color:lawngreen;
+        color:blue;
+    }
+    #a2{
+        background-color:aqua;
+        color:blue;
+        width:500px;
+        
+    }
+
+   
+</style>
+
+<form method="post" action="/Data1/SaveData">
+    <!--  <div asp-validation-summary="All"></div>   This for show all unvalid inputes in Form-->
+
+    <div id="a2" >
+
+    <div>
+        <label asp-for="Name"></label>
+        <input asp-for="Name" style="color:blue" class="form-control"/>
+        <span asp-validation-for="Name"></span>
+    </div>
+    <br/>
+   
+    <div>
+        <label asp-for="Salary" style="color:brown"></label>
+        <input asp-for="Salary" style="color:aquamarine" class="form-control"/>
+        <span asp-validation-for="Salary"></span>
+    </div>
+    <br/>
+
+    <div>
+        <label asp-for="City"></label>
+        <input asp-for="City" style="color:green" class="form-control" />
+        <span asp-validation-for="City"></span>
+    </div>
+    <br />
+
+    <div>
+        <label asp-for="course"></label>
+        <input asp-for="course" style="color:violet" class="form-control" />
+        <span asp-validation-for="course"></span>
+    </div>
+    <br/>
+    
+    <div>
+        <label asp-for="Phone"></label>
+        <input asp-for="Phone" class="form-control"/>
+        <span asp-validation-for="Phone"></span>
+    </div>
+    <br/>
+    
+    
+
+    <div>
+         <label asp-for="Dep_id"></label>     <!--Video 10 min 15-->
+         <select
+             asp-for="Dep_id" asp-items="lst" >
+         </select>
+    </div>
+    <br />
+    </div>
+
+    <input id="a1" type="submit" value="Sign up" class="btn btn-success"/>
+</form>
+
+<partial name="_ValidationScriptsPartial" />
