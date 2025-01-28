@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "APILearn.Controllers.GenresController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Genres",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
