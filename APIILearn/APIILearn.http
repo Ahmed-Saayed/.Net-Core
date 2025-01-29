@@ -1,0 +1,6 @@
+@APIILearn_HostAddress = http://localhost:5234
+
+GET {{APIILearn_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
