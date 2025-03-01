@@ -1,0 +1,6 @@
+@JWT2Learn_HostAddress = http://localhost:5023
+
+GET {{JWT2Learn_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
